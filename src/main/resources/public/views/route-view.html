@@ -1,0 +1,27 @@
+<div class="container pad-top">
+  <table class="table routetable">
+      <tr>
+          <td><h3>Details for {{route.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{route.name}}</td>
+      </tr>
+      <tr>
+          <td>Description</td>
+          <td>{{route.description}}</td>
+      </tr>
+      <tr>
+          <td>Route Condition</td>
+          <td>{{route.condition}}</td>
+      </tr>
+      <tr>
+          <td>Distance</td>
+          <td>{{route.distance}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editRoute({id:route.id})">Edit</a>
+  </div>
+</div>
