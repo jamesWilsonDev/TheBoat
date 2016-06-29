@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String home(){
-        return "Yes boi!!!";
+        return "Yes boi!!! 2k16";
     }
 }
