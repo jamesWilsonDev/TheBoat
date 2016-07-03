@@ -1,7 +1,1 @@
-com\example\config\PersistanceConfiguration.class
-com\example\controller\RoutesController.class
-com\example\controller\RoutesStub.class
-com\example\controller\HomeController.class
-com\example\repository\RoutesRepository.class
-com\example\model\Route.class
-com\example\TheBoatApplication.class
+com\example\config\WebSecurityConfiguration.class

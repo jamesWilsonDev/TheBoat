@@ -1,11 +1,14 @@
 package com.example.config;
 
+import org.flywaydb.core.Flyway;
 import org.springframework.boot.autoconfigure.flyway.FlywayDataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
 
@@ -27,4 +30,5 @@ public class PersistanceConfiguration {
     public DataSource flywayDataSource() {
         return DataSourceBuilder.create().build();
     }
+ 
 }
